@@ -1,4 +1,7 @@
 /*header*/
+img[src*="Layer7"]{
+	z-index:-1;
+}
 a{
 	color:black;
 }
