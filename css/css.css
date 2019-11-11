@@ -6,7 +6,10 @@ header a:hover{
 	text-decoration:none;
 	color:#62C29D;
 }
-/*discover button row*/
+#divpadding{
+	padding:2em;
+}
+/*discover-contact rows*/
 #shopline{
 	height:12rem;
 	background-color:#283138;
@@ -27,15 +30,58 @@ header a:hover{
 	text-decoration:none;
 	color:#62C29D;
 }
-
-/* contact row*/
 #inputbutton{
 	width:50vw;
 }
+#gobutton{
+	background-color: #62C29D;
+	border: none;
+	color: #FFF;
+	padding: 0.8em 2em;
+	font-size: 1em;
+}
+/* media*/
+@media only screen and (max-width: 770px) {
+	#inputbutton {
+	width:70vw;
+	}
+}
+@media only screen and (max-width: 500px) {
+	#inputbutton {
+	width:100vw;
+	}
+}
+@media only screen and (max-width: 620px) {
+	#rowtocol {
+	flex-direction:column !important;
+	}
+	#rowtocol p{
+	display:none;
+	}
+	a[href*="#shop"]{
+		align-self: flex-end;
+		order:1;
+	}
+}
+@media only screen and (max-width: 620px) {
+	#logo1{
+		transform:scale(0.8)
+	}
+}
+@media only screen and (max-width: 410px) {
+	#divpadding{
+		padding:0em !important;
+	}
+}
+@media only screen and (max-width: 345px) {
+	#logo1{
+		display:none
+	}
+}
 /* logo */
 .logo {
-	width:8vw;
-	height:8vw;
+	width:8em;
+	height:8em;
 }
 .logo a{
 	color:#62C29D;
@@ -45,7 +91,7 @@ header a:hover{
 	color:black;
 }
 .line1, .line2, .line3, .line4{
-	height:3.5vw;
+	height:3.5em;
 	border-style: solid;
 	border-width: 0.5px;
 	position:absolute;
@@ -71,7 +117,7 @@ header a:hover{
 }
 .logo a{
 	position:absolute;
-	font-size:2vw;
+	font-size:2em;
 }
 .logo :nth-child(1){
 	left:40%;
@@ -84,7 +130,7 @@ header a:hover{
 .logo :nth-child(3){
 	bottom:15%;
 	left:42%;
-	font-size:0.5vw;
+	font-size:0.5em;
 }
 .logo :nth-child(4){
 	top:30%;
@@ -97,22 +143,5 @@ header a:hover{
 .logo :nth-child(5){
 	top:43%;
 	left:46%;
-	font-size:0.8vw;
-}
-/*logo2 normalise*/
-#logo2	{
-	width:8em;
-	height:8em;
-}
-#logo2 div[class*="line"]{
-	height:3.5em;
-}
-#logo2 a{
-	font-size:2em;
-}
-#logo2 :nth-child(3){
-	font-size:0.5em;
-}
-#logo2 :nth-child(5){
 	font-size:0.8em;
 }

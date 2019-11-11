@@ -8,19 +8,19 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/css.css">
 	</head>
-	<body>
+	<body class="px-2">
 		<header>
 			<div class="row d-flex flex-row overflow-hidden justify-content-center p-0">
 				<div class="d-flex flex-row position-absolute flex-wrap">
 					<div class="d-flex flex-column align-items-center justify-content-center p-0">
-						<div class="d-flex flex-row">
+						<div class="d-flex flex-row" id="rowtocol">
 							<a href ="#about" class="h6 m-3">ABOUT US</a>
 							<p class="h6 m-3">.</p>
 							<a href ="#work" class="h6 m-3">WORK</a>
 						</div>
 					</div>
-					<div class="order-first order-sm-0 d-flex flex-column align-items-center justify-content-center p-0">
-						<div class="d-inline-flex justify-content-center p-4">
+					<div class="d-flex flex-column align-items-center justify-content-center p-0">
+						<div class="d-inline-flex justify-content-center" id="divpadding">
 							<div class="d-inline-flex position-relative">
 								<div class="logo" id="logo1">
 									<a href ="#">O</a>
@@ -37,7 +37,7 @@
 						</div>
 					</div>
 					<div class="d-flex flex-column align-items-center justify-content-center p-0">
-						<div class="d-flex flex-row">
+						<div class="d-flex flex-row" id="rowtocol">
 							<a href ="#shop" class="h6 m-3">SHOP</a>
 							<p class="h6 m-3">.</p>
 							<a href ="#contact" class="h6 m-3">CONTACT</a>
@@ -157,8 +157,8 @@
 						<a href="#" class="text-center h6 m-0">DISCOVER THE SHOP</a>
 				</div>
 			</div>
-			<div class="row py-5" id="contact">
-				<div class="container-fluid d-flex flex-column align-items-center justify-content-center mt-5 overflow-hidden">
+			<div class="row py-5">
+				<div class="container-fluid d-flex flex-column align-items-center justify-content-center mt-5 overflow-hidden" id="contact">
 					<div class="d-inline-flex position-relative">
 						<div class="logo" id="logo2">
 							<a href ="#">O</a>
@@ -175,9 +175,9 @@
 					<h2 class="font-italic text-secondary p-4">Stay on the saddle!</h2>
 					<div class="d-flex flex-column align-items-center justify-content-center my-3">
 						<div class="d-flex flex-row justify-content-center" id="inputbutton">
-							<input type="email" class="form-control font-italic p-4" placeholder="enter your email...">
+							<input type="email" class="form-control font-italic p-4 mx-2" placeholder="enter your email...">
 							<div class="input-group-append">
-								<button type="submit" class="ml-3">Go</button>
+								<button type="submit" class="mx-2" id="gobutton">Go</button>
 							</div>
 						</div>
 					</div>
@@ -185,22 +185,22 @@
 			</div>
 		</main>
 		<footer class="row py-5 bg-light">
-			<div class="col-12 col-md-4 d-flex flex-row justify-content-center my-3">
-				<div class="d-flex flex-column justify-content-center align-items-start overflow-hidden">
+			<div class="col-12 col-md-4 d-flex flex-row justify-content-around py-3">
+				<div class="d-flex flex-column">
 					<p class="font-weight-bold text-muted m-0">AOD New York</p>
 					<p class="font-italic text-muted m-0">220 Lexington Avenue</p>
 					<p class="font-italic text-muted m-0">New york, NY 10035 - info@domain.com</p>
 				</div>
 			</div>
-			<div class="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center my-3">
+			<div class="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center py-3">
 				<div class="d-flex flex-row justify-content-center">
 					<img src="IMG/facebook.png" class="" alt="">
 					<img src="IMG/twitter.png" class="px-3" alt="">
 					<img src="IMG/pinterest.png" class="" alt="">
 				</div>
 			</div>
-			<div class="col-12 col-md-4 d-flex flex-column align-items-center justify-content-center my-3">
-				<div class="d-flex flex-row justify-content-center">
+			<div class="col-12 col-md-4 d-flex flex-column justify-content-around align-items-center py-3">
+				<div class="d-flex flex-row">
 					<p class="font-italic text-muted mr-3 mb-0">Handcrafted by</p>
 					<img src="IMG/yebo.png" class="" alt="">
 				</div>
