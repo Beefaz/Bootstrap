@@ -7,30 +7,30 @@ header a:hover{
 	color:#62C29D;
 }
 /*discover button row*/
-#discover{
+#shopline{
 	height:12rem;
 	background-color:#283138;
-	text-align:center;
 }
-#discover a{
-	letter-spacing: 0.2rem;
+#shopbutton {
 	border-style:solid;
 	border-width:0.05rem;
 	border-color:#FFF;
-	height:4rem;
-	padding-top:1rem;
-	width:22rem;
+}
+#shopbutton a{
+	letter-spacing: 0.2rem;
 	color:#FFF;
 }
-#discover a:hover{
+#shopbutton:hover{
+	border-color:#62C29D;
+}
+#shopbutton a:hover{
 	text-decoration:none;
 	color:#62C29D;
-	border-color:#62C29D;
 }
 
 /* contact row*/
-input {
-	width: 12rem;
+#inputbutton{
+	width:50vw;
 }
 /* logo */
 .logo {
