@@ -9,6 +9,18 @@ header a:hover{
 #divpadding{
 	padding:2em;
 }
+
+/*kt*/
+#linkcolor{
+text-decoration:none;
+color:#000000;
+}
+#linkcolor:hover{
+color:#62C29D;
+}
+
+
+
 /*discover-contact rows*/
 #shopline{
 	height:12rem;
