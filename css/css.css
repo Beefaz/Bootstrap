@@ -63,7 +63,7 @@ color:#62C29D;
 	width:100vw;
 	}
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 615px) {
 	#rowtocol {
 	flex-direction:column !important;
 	}
@@ -74,8 +74,6 @@ color:#62C29D;
 		align-self: flex-end;
 		order:1;
 	}
-}
-@media only screen and (max-width: 620px) {
 	#logo1{
 		transform:scale(0.8)
 	}
